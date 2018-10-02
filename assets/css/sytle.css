@@ -59,20 +59,18 @@ a:visited {
   color: #777777;
 }
 
-.middle-box {
+.wrapper {
   width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .about-me {
-  float: left;
-  overflow: auto;
   border-bottom: 2px solid #cccccc;
   width: 100%;
   padding: 10px;
   color: #4aaaa5;
-  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .about-box {
@@ -81,6 +79,13 @@ a:visited {
   clear: both;
   background: #ffffff;
   border: 1px solid #dddddd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.img-box {
+  float: left;
+  padding: 10px;
 }
 
 .footer {
@@ -91,4 +96,12 @@ a:visited {
   position: fixed;
   bottom: 0px;
   left: 0px;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 28px;
 }
