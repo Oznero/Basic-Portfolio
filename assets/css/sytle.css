@@ -12,7 +12,7 @@
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 80px;
-    width: 300px;
+    width: 250px;
     margin-left: 20%;
 }
 
@@ -27,7 +27,7 @@
 
 ul#horizontal-list {
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: #777777;
     padding-top: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -60,25 +60,35 @@ a:visited {
 }
 
 .middle-box {
-  padding: 20px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me {
+  float: left;
+  overflow: auto;
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+  padding: 10px;
+  color: #4aaaa5;
+  margin-bottom: 20px;
 }
 
 .about-box {
-  margin-left: 18%;
-  width: 960px;
   float: left;
   overflow: auto;
   clear: both;
   background: #ffffff;
   border: 1px solid #dddddd;
-  padding: 80px;
 }
 
 .footer {
   width: 100%;
   height: 40px;
-  overflow: auto;
-  clear: both;
   background: #666666;
   border-top: 6px solid #4aaaa5;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 }
