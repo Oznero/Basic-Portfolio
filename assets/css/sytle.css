@@ -42,17 +42,14 @@ ul#horizontal-list li {
   padding: 10px;
 }
 
-a {
+ul#horizontal-list a {
   text-decoration: none;
+  color: #777777
 }
 
-a:hover {
+ul#horizontal-list a:hover {
    color: yellow;
   }
-
-a:visited {
-  color: #777777;
-}
 
 .wrapper {
   width: 960px;
