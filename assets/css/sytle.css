@@ -5,51 +5,47 @@
     height: 90px;
     margin-bottom: 60px;
 }
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: white;
+  font-size: 48px;
+}
+
 .name {
     background: #4aaaa5;
-    color: white;
     text-align: center;
     float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 15%;
-    height: 90px;
-    width: 200px;
+    line-height: 90px;
+    width: 300px;
+}
+
+nav {
+  float: right;
+  margin: auto;
+  padding: auto;
+  line-height: 75px;
+}
+
+nav a {
+  padding: 0px 18px 0px 10px;
+  text-decoration: none;
+  color: #777777;
+}
+
+nav a:hover {
+  color: yellow;
 }
 
 body {
   background: url("../images/qbkls.png");
+  background-repeat: repeat;
 }
 
 #upper-menu {
   height: 84px;
 }
-
-.table {
-  display: table;
-  margin: 0 auto;
-}
-
-ul#horizontal-list {
-    list-style: none;
-    font-size: 17px;
-    color: #777777;
-    padding-top: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-ul#horizontal-list li {
-  display: inline;
-  padding: 10px;
-}
-
-ul#horizontal-list a {
-  text-decoration: none;
-  color: #777777;
-}
-
-ul#horizontal-list a:hover {
-   color: yellow;
-  }
 
 .wrapper {
   width: 960px;
