@@ -43,10 +43,6 @@ body {
   background-repeat: repeat;
 }
 
-#upper-menu {
-  height: 84px;
-}
-
 .wrapper {
   width: 960px;
   padding: 20px;
@@ -63,6 +59,7 @@ body {
   padding: 10px;
   color: #4aaaa5;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .img-box {
